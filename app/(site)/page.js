@@ -7,6 +7,7 @@ import Listing from "@/components/home/listing";
 import LookingFor from "@/components/home/lookingFor";
 import Partners from "@/components/home/partners";
 import PopularBreeds from "@/components/home/popularBreeds";
+// import Featured from "@/components/home/serviceprovided";
 import ShopbyPeat from "@/components/home/shopbyPeat";
 import Image from "next/image";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <FeaturedPet/>
       <FeaturedServices />
       <PopularBreeds></PopularBreeds>
+      {/* <Featured/> */}
       <LookingFor/>
       <Listing></Listing>
       <ClientSay></ClientSay>

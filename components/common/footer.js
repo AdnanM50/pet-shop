@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <Image src="/logo/logo1.png" alt="logo" width={200} height={100} />
+            {/* <Image src="/logo/logoaa.jpg" alt="logo" width={100} height={100} /> */}
           </div>
           <div>
             <h3 className="my-2">Let’s Update your self.</h3>

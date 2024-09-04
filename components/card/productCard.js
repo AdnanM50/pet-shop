@@ -5,6 +5,7 @@ import React from 'react'
 import EyeOutlined from '@ant-design/icons/EyeOutlined'
 import HeartOutlined from '@ant-design/icons/HeartOutlined'
 import ShoppingOutlined from '@ant-design/icons/ShoppingOutlined'
+import Link from 'next/link'
 
 const ProductCard = () => {
   return (
@@ -24,6 +25,7 @@ const ProductCard = () => {
           </div>
         </div>
         <div className='p-6'>
+          <Link href='/ahop-single'>
           <div className='text-center'>
             <h1 className="mb-4 heading_text_2 !font-roboto">API® Freshwater Aquarium Master Test Kit</h1>
             <Rate defaultValue={3} />
@@ -31,6 +33,7 @@ const ProductCard = () => {
               $999
             </h1>
           </div>
+          </Link>
         </div>
       </div>
     </div>

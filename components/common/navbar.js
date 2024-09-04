@@ -85,7 +85,7 @@ export default function Navbar() {
 
       <div className='flex items-center justify-between text-lg font-medium py-4'>
         <Link href='/' >
-          <Image src="/logo/logo.png" width={100} height={100} alt="logo"></Image>
+          <Image src="/logo/logoaa.jpg" className='rounded-xl' width={100} height={100} alt="logo"></Image>
         </Link>
         {open && (
           <div className={`lg:flex items-center gap-4 ${isMobile ? 'flex-col bg-slate-200 absolute z-50 top-[78px] left-0 w-full' : ''}`}>
@@ -115,7 +115,7 @@ export default function Navbar() {
                 )}
               </ul>
             ))}
-            <button className='border-[2px] ml-3 mb-3 md:mb-0 border-primary md:px-[15px] md:py-2 py-1 px-3 md:rounded text-primary'>Become A Seller</button>
+            <Link href='/manage-account' className='border-[2px] ml-3 mb-3 md:mb-0 border-primary md:px-[15px] md:py-2 py-1 px-3 md:rounded text-primary'>Become A Seller</Link>
           </div>
         )}
         <div className='flex items-center gap-4'>

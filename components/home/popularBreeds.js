@@ -49,7 +49,7 @@ const PopularBreeds = () => {
                 </button>
             </div>
 
-            <div className='mt-10'>
+            {/* <div className='mt-10'>
                 <h1 className='heading_text_1 mb-2'>Fetch Bulldog</h1>
                 <Row gutter={[16, 32]}>
                     {
@@ -71,7 +71,7 @@ const PopularBreeds = () => {
                         </Col>)
                     }
                 </Row>
-            </div>
+            </div> */}
         </div>
     )
 }
